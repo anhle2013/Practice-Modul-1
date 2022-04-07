@@ -6,6 +6,6 @@ function countVowelCharacter (array) {
     if (count != 0) return count;
         else return false;
 }
-let str='qh2h19jdwndkjnxkd';
-let a= str.split("");
-console.log(countVowelCharacter(a));
+let str='iqh2h19ajdwndkjnxkd';
+let arr= str.split("");
+console.log(countVowelCharacter(arr));
