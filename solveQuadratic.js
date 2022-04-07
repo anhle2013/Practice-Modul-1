@@ -1,5 +1,5 @@
-function caculateQuadratic(a,b,c) {
-    console.log(`Quadratic ${a}x2 + ${b}x + ${c} = 0 has result:`);
+function solveQuadratic(a,b,c) {
+    console.log(`Quadratic ax2 + bx + c = 0 with a=${a}, b=${b}, c=${c} has result:`);
     if (a==0) {
         if (b==0) {
             if (c==0) return console.log(`Infinitely many solutions`);
@@ -13,4 +13,4 @@ function caculateQuadratic(a,b,c) {
         else return console.log(`2 solution: x1=${(-b+Math.sqrt(delta))/(2*a)} and x2=${(-b-Math.sqrt(delta))/(2*a)}`);
     }
 }
-caculateQuadratic(8,12,-20);
+solveQuadratic(8,12,-20);
